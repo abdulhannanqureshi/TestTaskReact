@@ -1,0 +1,64 @@
+// Here you can add other styles
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;900&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    .form-control{
+        font-size: 18px;
+        border-color: #afbabd !important;
+    }
+    .input-group-text-theme{
+        background-color: transparent;
+        border-color: #838e91;
+    }
+    .table{
+        background-color: #fff;
+        tr{
+            td{
+                font-size: 16px;
+                padding-left: 5px;
+            }
+        }
+    }
+}
+.main {
+    .container-fluid{
+        padding: 0 15px;
+    }
+}
+.page-header-panel{
+    .filter-block{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 0px !important;
+        .custom-select{
+            max-width: 100px;
+            margin-right: 30px;
+        }
+    }
+}
+.sidebar {
+    width: 250px;
+    .sidebar-nav{
+        width: 250px;
+    }
+    .nav{
+        width: 250px;
+    }
+    @media (min-width: 992px){
+        .main{
+            margin-left: 250px;
+        }
+    }
+}
+
+@media (min-width: 992px){
+    .sidebar-fixed .sidebar{
+        width: 250px;
+    }
+}
+
+@media (min-width: 992px){
+    html:not([dir="rtl"]) .sidebar-lg-show.sidebar-fixed .main, html:not([dir="rtl"]) .sidebar-lg-show.sidebar-fixed .app-footer, html:not([dir="rtl"]) .sidebar-show.sidebar-fixed .main, html:not([dir="rtl"]) .sidebar-show.sidebar-fixed .app-footer {
+        margin-left: 250px;
+    }
+}

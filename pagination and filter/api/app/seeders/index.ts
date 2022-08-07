@@ -1,0 +1,12 @@
+export { default as SuperAdminSeeder } from './SuperAdmin';
+export { default as CourseTopicSeeder } from './CourseTopic';
+export { default as UniversitySeeder } from './Universities';
+export { default as CorporateSeeder } from './Corporate';
+export { default as EmailTemplateTemplateSeeder } from './EmailTemplate';
+export { default as SettingSeeder } from './Setting';
+export { default as PrivacyPolicySeeder } from './PrivacyPolicy';
+export { default as TermsAndConditionSeeder } from './TermsAndCondition';
+export { default as RefundPolicySeeder } from './RefundPolicy';
+export { default as DoNotSellSeeder } from './DoNotSell';
+export { default as CmsSeeder } from './cms';
+export { default as MarketingSeeder } from './marketing';

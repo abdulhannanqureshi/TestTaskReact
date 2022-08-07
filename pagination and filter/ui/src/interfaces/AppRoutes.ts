@@ -1,0 +1,87 @@
+import { ImainState } from './Store';
+import { RouteProps } from 'react-router';
+import { IredirectPath } from './DefaultLayout';
+
+export interface IAppRoutesProps extends RouteProps {
+  mainState?: ImainState;
+  redirectTo?: (path: IredirectPath) => void;
+}
+export interface IAppRoutesState {}
+
+export interface IAppRoutes {
+  MAIN: string;
+  LOGIN: string;
+  HOME: string;
+  MY_PROFILE: string;
+  USER: string;
+  ADD_USER: string;
+  EDIT_USER: string;
+  EMAILTEMPLATE: string;
+  ADD_TEMPLATE: string;
+  EDIT_TEMPLATE: string;
+  ADD_HOME_PAGE: string;
+  FAQ: string;
+  ADD_FAQ: string;
+  ENTERPRISE: string;
+  BLOG_CATEGORY: string;
+  ADD_BLOG_CATEGORY: string;
+  EDIT_BLOG_CATEGORY: string;
+  BLOG: string;
+  ADD_BLOG: string;
+  EDIT_BLOG: string;
+  COURSE: string;
+  ADD_COURSE: string;
+  EDIT_COURSE: string;
+  MODULE: string;
+  ADD_MODULE: string;
+  EDIT_MODULE: string;
+  PRESS_RELEASE_CATEGORY: string;
+  ADD_PRESS_RELEASE_CATEGORY: string;
+  EDIT_PRESS_RELEASE_CATEGORY: string;
+  PRESS_RELEASE: string;
+  ADD_PRESS_RELEASE: string;
+  EDIT_PRESS_RELEASE: string;
+  PROMO_CODE: string;
+  ADD_PROMO_CODE: string;
+  EDIT_PROMO_CODE: string;
+  //GET_COURSE_TOPICS:string;
+  TRANSACTION: string;
+  REPORT_USER: string;
+  REPORT_SALE: string;
+  CERTIFICATE: string;
+  SETTING: string;
+  CATEGORY: string;
+  ADD_CATEGORY: string;
+  EDIT_CATEGORY: string;
+  PRIVACY_POLICY: string;
+  TERMS_CONDITIONS: string;
+  REFUND_POLICY: string;
+  DO_NOT_SELL: string;
+  UNIVERSITY: string;
+  ADD_UNIVERSITY: string;
+  CORPORATE: string;
+  ADD_CORPORATE: string;
+  EDIT_UNIVERSITY: string;
+  EDIT_CORPORATE: string;
+  SUB_ADMIN: string;
+  ADD_SUB_ADMIN: string;
+  EDIT_SUB_ADMIN: string;
+  POLICY_PAGES: string;
+  EDIT_POLICY_PAGES: string;
+  OUR_TEAM: string;
+  ADD_TEAM: string;
+  EDIT_TEAM: string;
+  FRONTEND_PAGES: string;
+  EDIT_ABOUT_PAGES: string;
+  EDIT_ENTERPRISE_PAGES: string;
+  EDIT_LABS_PAGES: string;
+  EDIT_CERTIFICATION_PAGES: string;
+  EDIT_UNIVERSITY_PAGES: string;
+  EDIT_COURSES_PAGES: string;
+  EDIT_MARKETING_PAGES:string;
+  EDIT_HOME_PAGES:string;
+  EDIT_FOOTER_PAGES:string;
+  LAB:string;
+  ADD_LAB:string;
+  EDIT_LAB:string;
+}

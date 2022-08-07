@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node ./src/server.js",
+    "build": "babel src -d dist --copy-files",
+    "start": "node dist/server.js",
+    "prestart": "npm run build",
+    "gen:doc": "npm run build && ./node_modules/.bin/apidoc-swagger - build/ -o ./ -e node_modules/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "apidoc": "^0.17.7",
+    "apidoc-swagger": "^0.3.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "google-auth-library": "^7.14.1",
+    "google-books-search": "^0.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "swagger-ui-express": "^4.1.2",
+    "yup": "^0.32.6"
+  }
+}

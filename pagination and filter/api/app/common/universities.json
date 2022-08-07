@@ -1,0 +1,30 @@
+[
+    {
+       "isDeleted": false,
+       "isActive": true,
+        "name": "Abilene Christian University"
+       
+       
+      },
+      {
+       "isDeleted": false,
+        "name": "Academy of Art College",
+        "isActive": true
+      },
+      {
+       "isDeleted": false,
+        "name": "Adams State College",
+        "isActive": true
+      },
+      {
+       "isDeleted": false,
+        "name": "Adelphi University",
+        "isActive": true
+      },
+      {
+       "isDeleted": false,
+        "name": "rgpv University",
+        "isActive": true
+      }
+     
+]

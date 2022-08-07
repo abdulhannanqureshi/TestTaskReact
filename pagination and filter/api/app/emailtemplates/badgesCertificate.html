@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section style="background-image: url('{certificateBg}');
+    height: 800px;
+    background-size: 130% 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative">
+        <table style="width: 100%;">
+            <tbody>
+                <td>
+                    <div style="  position: absolute;
+                    top: 47.0%;
+                    left: 21.1%;">
+                        <label style=" color: white;
+                        font-size: 13px;">Issued :-</label>
+                        <input type="text" value={validFrom} style="outline: none;
+                        border: none;
+                        background-color: transparent;
+                        color: white;
+                        font-size: 13px;
+                        width: 90px;">
+                    </div>
+                </td>
+                <td>
+                    <div style=" position: absolute;
+                    top: 47.0%;
+                    left: 52.0%;">
+                        <label style=" color: white;
+                        font-size: 13px;">Expires :-</label>
+                        <input type="text" style="outline: none;
+                        border: none;
+                        background-color: transparent;
+                        color: white;
+                        font-size: 13px;
+                        width: 90px;" value={validTo}>
+                    </div>
+                </td>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+node_modules/
+package-lock.json
+yarn.lock
+.vscode
+.git
+build/
+admin/
+lib/
+bin/
+dist/
+api-docs/
+uploads/
+.env
+api/.env
+superadmin/.env
+frontend/.env
+frontend/.next

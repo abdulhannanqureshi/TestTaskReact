@@ -1,0 +1,54 @@
+[
+    {  
+        "name": "Automotive",
+        "isDeleted": false,
+        "isActive": true
+      },
+     
+    {  
+        "name": "Forestry and Logging",
+        "isDeleted": false,
+        "isActive": true
+      },
+     
+    {  
+        "name": "Cotton and Textile Farming",
+        "isDeleted": false,
+        "isActive": true
+      },
+     
+    {  
+        "name": "Farming Materials and Supplies",
+        "isDeleted": false,
+        "isActive": true
+      },
+     
+    {  
+        "name": "Coffee, Tea and Cocoa Farming",
+        "isDeleted": false,
+        "isActive": true
+      },
+     
+    {  
+        "name": "Agriculture and Forestry",
+        "isDeleted": false,
+        "isActive": true
+      },
+     
+    {  
+        "name": "Aerospace Products and Parts",
+        "isDeleted": false,
+        "isActive": true
+      },
+      {  
+        "name": "Banks",
+        "isDeleted": false,
+        "isActive": true
+      },
+      {  
+        "name": "Motor Vehicle Manufacturing",
+        "isDeleted": false,
+        "isActive": true
+      }
+     
+]

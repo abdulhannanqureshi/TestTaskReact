@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Certificate</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css' media='all' />
+
+  <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Viga&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='certificate.css' media='all' /> -->
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+.certificate-sec {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: #f5f5f5;
+}
+.certificate-box {
+	background: #fff;
+    text-align: center;
+    border:15px solid #5120FF;
+    width: 600px;
+    height: 400px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.certificate-box h1 {
+    font-size: 35px;
+    margin: 20px 0 20px;
+    font-family: 'Viga', sans-serif;
+    letter-spacing: 1px;
+}
+.certificate-box .form-group {
+    margin-bottom: 15px;
+}
+.certificate-box p {
+    margin-bottom: 15px;
+}
+.certificate-box input {
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+.certificate-box input:focus {
+    outline: none;
+}
+.certificate-box h3, .certificate-box h5 {
+    margin-bottom: 10px;
+}
+.certificate-box h5 {
+    font-size: 14px;
+}
+.certificate-box .sign {
+    margin-top: 70px;
+}
+.certificate-box .sign i{
+	border-top: 1px solid #000;
+	padding: 3px 40px 0;
+}
+</style>
+<body>
+
+<section class="certificate-sec">
+  <div class="certificate-box">
+    <h1>Certificate of Course</h1>
+    <p>This Certifies that</p>
+    <div class="form-group">
+      <label>Name:</label>
+      <input type="text" name="" value={fullName}>
+    </div>
+    <div class="form-group">
+      <label>Has completed the </label>
+      <input type="text" name="" value={heading}>
+      <label>Course for {title}</label>
+    </div>
+    <h3>WRITE TITLE OF TRAINING COURSE HERE</h3>
+    <h5>And is Awarded this Certificate By</h5>
+    <h3>COMPANY NAME HERE</h3>
+    <div class="form-group">
+      <label>Date:</label>
+      <input type="" name="" value= {date}>
+    </div>
+    <p class="sign"><i>Authorized Signatures</i></p>
+  </div>
+</section>
+
+</body>
+</html>
